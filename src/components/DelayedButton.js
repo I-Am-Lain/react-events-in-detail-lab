@@ -12,7 +12,7 @@ export default class DelayedButton extends Component{
     render(){
         return(
             <button type='button' 
-            onClick={() => this.handleClick(e.persist())}>
+            onClick={this.handleClick}>
                 Delay
             </button>
         )
